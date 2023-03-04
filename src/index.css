@@ -7,7 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.footercol{
+  background: radial-gradient(circle at -3.7% -5%, rgb(113, 213, 225) 0.3%, rgb(73, 146, 226) 90.5%);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
